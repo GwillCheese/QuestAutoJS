@@ -18,7 +18,10 @@ export const getCars = async (getFromQuery, filters = [], url = null) => {
             return filters.every(filter => {
                 if(!filter.value) return true
                 if(filter.key === 'bodyType') return car.bodyType === filter.value
-                if(filter.key === 'make') return car.make._id === filter.value
+                if(filter.key === 'make') {
+    // Handle both ID (from filter) and name (from search)
+    return car.make._id === filter.value || car.make.name.toLowerCase() === filter.value.toLowerCase()
+}
                 if(filter.key === 'model') return car.model._id === filter.value
                 if(filter.key === 'color') return car.color._id === filter.value
                 if(filter.key === 'price') return car.price <= filter.value
