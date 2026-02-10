@@ -11,6 +11,10 @@
       "dest": "/client/pages/index.html"
     },
     {
+      "src": "/index.html",
+      "dest": "/client/pages/index.html"
+    },
+    {
       "src": "/cars.html",
       "dest": "/client/pages/cars.html"
     },
