@@ -2,6 +2,10 @@
 
 A modern car catalog platform built with vanilla JavaScript, featuring advanced filtering, search capabilities, and responsive design.
 
+## 🚀 Deployment
+
+- Vercel Static Hosting: https://quest-auto-js.vercel.app/
+
 ## 🏗️ Architecture
 
 **Frontend-First Approach**: Uses static sample data for immediate functionality while backend code is included for portfolio demonstration.
@@ -64,11 +68,6 @@ QuestAutoJS-main/
 - **No Setup Required**: Works immediately
 - **Portfolio Ready**: Shows both frontend and backend capability
 - **Clean Code**: Maintainable, well-structured
-
-## 🚀 Deployment
-
-### Static Hosting (Recommended)
-- GitHub Pages (free hosting) : 
 ---
 
 **Note**: Frontend is fully functional with static data. Backend code is included to demonstrate full-stack development skills.
